@@ -4,15 +4,17 @@ using namespace std;
 
 int main() {
 
-  for (int n = 0; n < 10; n++) {
+  int n = 10;
 
-    cout << "n is " << n << ": ";
- 
-   for (int m = 0; m <= n; m++) {
-      cout << m;
+  while (n > 0) {
+
+    if (n > 5) {
+      cout << "n is " << n << endl;
+    } else {
+      cout << "n = " << n << endl;
     }
 
-    cout << endl;
+    n--;
   }
 
   return 0;
