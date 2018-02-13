@@ -22,12 +22,15 @@ int main() {
   cout << "Enter the number of loop iterations: ";
   cin >> num;
 
-  int inew = 2345;
+  int inew = 9989;
   int histo[10] = {};
   double atmp;
 
   for (int i = 0; i < num; i++) {
     atmp = getFlatRandom(inew);
+    if (i < 10) {
+      cout << atmp << endl;
+    }
     histo[int(atmp * 10)]++;
   }
 
