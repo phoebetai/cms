@@ -4,17 +4,16 @@ using namespace std;
 
 int main() {
 
-  int n = 10;
+  bool prop;
 
-  cout << "n is " << n << endl;
+  prop = (5 > 1);
+  cout << "prop is " << prop << endl;
 
-  n--;
+  prop = (1 > 5);
+  cout << "prop is " << prop << endl;
 
-  cout << "n is now " << n << endl;
-
-  n++;
-
-  cout << "n is now " << n << endl;
+  prop = (1 != 5);
+  cout << "prop is " << prop << endl;
 
   return 0;
 }
