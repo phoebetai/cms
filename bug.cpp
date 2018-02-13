@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
 
-  int i = 1;
+  double i = 1;
 
   while (i < 1.5e9) {
     i *= 10;
