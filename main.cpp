@@ -3,16 +3,18 @@
 using namespace std;
 
 int main() {
-  cout << "Hello world!" << endl;
-  
-  int i = 2;
-  cout << "i = " << i << endl;
-  
-  double a = 3.3;
-  cout << "a = " << a << endl;
 
-  int j = a * i;
-  cout << "a * i = " << j << endl;
+  int n = 10;
+
+  cout << "n is " << n << endl;
+
+  n--;
+
+  cout << "n is now " << n << endl;
+
+  n++;
+
+  cout << "n is now " << n << endl;
 
   return 0;
 }
