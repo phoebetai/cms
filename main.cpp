@@ -4,18 +4,16 @@ using namespace std;
 
 int main() {
 
-  int n = 10;
+  int i = 10;
+  cout << "The memory address of i is " << &i << "\n";
+  cout << "The data stored at memory address " << &i << " is " << i << "\n";
 
-  while (n > 0) {
+  int *p = &i;
+  cout << "The value of p is " << p << "\n";
+  cout << "We say that p 'points at' the memory location referenced by the address " << p << "\n";
 
-    if (n > 5) {
-      cout << "n is " << n << endl;
-    } else {
-      cout << "n = " << n << endl;
-    }
-
-    n--;
-  }
+  cout << "The data stored at memory address " << p << " is " << *p << "\n";
 
   return 0;
+
 }
