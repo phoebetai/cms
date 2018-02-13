@@ -4,11 +4,8 @@ using namespace std;
 
 int main() {
 
-  int n = 10;
-
-  while (n > 0) {
+  for (int n = 10; n > 0; n--) {
     cout << "n is " << n << endl;
-    n--;
   }
 
   return 0;
