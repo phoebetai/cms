@@ -4,16 +4,12 @@ using namespace std;
 
 int main() {
 
-  bool prop;
+  int n = 10;
 
-  prop = (5 > 1);
-  cout << "prop is " << prop << endl;
-
-  prop = (1 > 5);
-  cout << "prop is " << prop << endl;
-
-  prop = (1 != 5);
-  cout << "prop is " << prop << endl;
+  while (n > 0) {
+    cout << "n is " << n << endl;
+    n--;
+  }
 
   return 0;
 }
