@@ -4,8 +4,20 @@ using namespace std;
 
 int main() {
 
-  for (int n = 10; n > 0; n--) {
-    cout << "n is " << n << endl;
+  int n = 0, m = 0;
+
+  while (n < 10) {
+
+    cout << "n is " << n << ": ";
+    m = 0;
+
+    while (m <= n) {
+      cout << m;
+      m++;
+    }
+
+    cout << endl;
+    n++;
   }
 
   return 0;
